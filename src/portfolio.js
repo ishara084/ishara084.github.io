@@ -70,6 +70,7 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
+  // eslint-disable-next-line no-sparse-arrays
   softwareSkills: [
     {
       skillName: "html-5",
@@ -90,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
-    },,
+    },
     {
       skillName: "React",
       fontAwesomeClassname: "fab fa-react"
