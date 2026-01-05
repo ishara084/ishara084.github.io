@@ -23,10 +23,10 @@ const greeting = {
   username: "Draco The Voyager",
   title: "Hi all, I'm Ishara",
   subTitle: emoji(
-    "A passionate Full Stack Developer 🚀 having an experience of Web applications development, Big data visualizations with some cool tech-stacks."
+    "A passionate Full Stack Developer 🚀 having an experiences on Web applications development, Big data visualizations, Data Engineering with some cool tech-stacks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A CRAZY FULL STACK DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive (Front end / User Interfaces) web applications"
@@ -61,6 +61,9 @@ const skillsSection = {
     ),
     emoji(
         "⚡ ETL, Data pipeline, Big data visualization"
+    ),
+    emoji(
+        "⚡ Data Engineering, ML pipelines"
     )
   ],
 
@@ -142,10 +145,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Utah State University",
+      logo: require("./assets/images/usu.png"),
+      subHeader: "Master of Science in Data Science",
+      duration: "August 2024 - April 2026(Readying)"
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       schoolName: "Cardiff Metropolitan University",
       logo: require("./assets/images/cardiff.png"),
       subHeader: "Master of Science in Data Science",
-      duration: "September 2022 - Present(Readying)"
+      duration: "2022 - 2024"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -190,11 +204,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Graduate Research Assistant",
+      company: "ASPIRE Research Center",
+      companylogo: require("./assets/images/aspire.png"),
+      date: "Aug 2024 – May 2026",
+      desc: "Electrified transit infrastructure monitoring system",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ]
+    },
+    {
       role: "Full-stack Developer",
       company: "Wiley",
       companylogo: require("./assets/images/logo_wiley.png"),
-      date: "Jan 2021 – Present",
-      desc: "Worked on several Wiley products in education domain"
+      date: "Jan 2021 – August 2024",
+      desc: "Worked on multiple enterprise products in education domain"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       // ]
